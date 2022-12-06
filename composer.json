@@ -19,6 +19,7 @@
         "symfony/http-kernel": "^6.2"
     },
     "suggest": {
+        "symfony/http-kernel": "^6.2"
     },
     "autoload":     {
         "psr-4": { "Code202\\Processor\\": "src" }
