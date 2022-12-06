@@ -1,0 +1,29 @@
+{
+    "name": "code-202/processor",
+    "description": "Mechanism to process a work from a request",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jngermon",
+            "email": "jn.germon@code202.fr"
+        }
+    ],
+    "require": {
+        "php": ">8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "friendsofphp/php-cs-fixer": "^3.13"
+    },
+    "suggest": {
+    },
+    "autoload":     {
+        "psr-4": { "Code202\\Processor\\": "src" }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Code202\\Processor\\Tests\\": "tests"
+        }
+    }
+}
